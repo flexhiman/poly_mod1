@@ -24,10 +24,9 @@ This project demonstrates deploying an NFT collection on the Ethereum blockchain
 - *Pinata*: For IPFS file storage
 
 ## Commands 
- npx hardhat run scripts/deploy.js
+```npx hardhat run scripts/deploy.js```
 
-deploy the sepolia network:-  
-```npx hardhat run scripts/deploy.js --network sepolia```
+deploy the sepolia network:- ```npx hardhat run scripts/deploy.js --network sepolia```
 
 next process is to mint:- 
 ```npx hardhat run scripts/batchMint.js --network sepolia```
@@ -39,4 +38,4 @@ this command is to run the getbalance.js script on the amoy network:-
 ```npx hardhat run scripts/getBalance.js --network amoy```
 
 ### After running these commands
-### - copy the address check the balance of the wallet and verify the transaction.
+- copy the address check the balance of the wallet and verify the transaction.
