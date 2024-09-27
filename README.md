@@ -27,16 +27,16 @@ This project demonstrates deploying an NFT collection on the Ethereum blockchain
  npx hardhat run scripts/deploy.js
 
 deploy the sepolia network:-  
-npx hardhat run scripts/deploy.js --network sepolia
+```npx hardhat run scripts/deploy.js --network sepolia```
 
 next process is to mint:- 
-npx hardhat run scripts/batchMint.js --network sepolia
+```npx hardhat run scripts/batchMint.js --network sepolia```
 
 to verify and deposit:- 
-npx hardhat run scripts/approvedDepositjs --network sepolia
+```npx hardhat run scripts/approvedDepositjs --network sepolia```
 
 this command is to run the getbalance.js script on the amoy network:- 
-npx hardhat run scripts/getBalance.js --network amoy
+```npx hardhat run scripts/getBalance.js --network amoy```
 
-
-### copy the address check the balance of the wallet and verify the transaction.
+### After running these commands
+### - copy the address check the balance of the wallet and verify the transaction.
